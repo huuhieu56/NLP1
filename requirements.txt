@@ -1,0 +1,6 @@
+jupyter>=1.1,<2
+pandas>=2,<3
+playwright>=1.50,<2
+scikit-learn>=1.5,<2
+underthesea>=6,<7
+openai>=2,<3
