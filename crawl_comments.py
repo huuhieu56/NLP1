@@ -111,7 +111,7 @@ def collect_group(page, group_id, path, seen, args):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--target", type=int, default=1000)
-    parser.add_argument("--output", type=Path, default=Path("comments.csv"))
+    parser.add_argument("--output", type=Path, default=Path("data/comments.csv"))
     parser.add_argument("--max-feed-scrolls", type=int, default=300)
     parser.add_argument("--max-posts", type=int, default=500)
     parser.add_argument("--max-comment-clicks", type=int, default=50)
